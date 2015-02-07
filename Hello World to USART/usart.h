@@ -10,7 +10,7 @@
 
 #ifndef USART_H_
 #define USART_H_
-// Defining clock speed, baud rate and
+// Defining clock speed and baud rate
 #define FOSC 16000000 // Clock Speed
 #define BAUD 9600
 #define MYUBRR FOSC/16/BAUD-1
